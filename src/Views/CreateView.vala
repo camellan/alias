@@ -22,6 +22,7 @@ public class CreateView : FormComponent {
         var alias = new Alias ();
         alias.set_name (name_entry.text);
         alias.set_shortcut (shortcut_entry.text);
+        alias.set_command ("alias");
 
         var aliases = response_translator.get_aliases ();
 

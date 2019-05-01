@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-24 01:57+0100\n"
+"POT-Creation-Date: 2019-05-02 00:07+0400\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
@@ -26,6 +26,10 @@ msgstr "Weet u het zeker?"
 #: src/Dialogs/DeleteConfirm.vala:11
 msgid "You are about to remove this alias. Are you sure?"
 msgstr "U staat op het punt deze alias te verwijderen. Weet u dit zeker?"
+
+#: src/Dialogs/DeleteConfirm.vala:16
+msgid "Delete"
+msgstr ""
 
 #: src/Views/NotFoundView.vala:8
 msgid "Nothing was found"
@@ -58,11 +62,11 @@ msgstr "Wijzig een alias"
 msgid "Edit"
 msgstr "Wijzigen"
 
-#: src/Views/EditView.vala:48 src/Views/CreateView.vala:29
+#: src/Views/EditView.vala:48 src/Views/CreateView.vala:30
 msgid "Fields are invalid"
 msgstr "Velden zijn onjuist ingevuld"
 
-#: src/Views/EditView.vala:48 src/Views/CreateView.vala:29
+#: src/Views/EditView.vala:48 src/Views/CreateView.vala:30
 msgid "Please correctly fill in all the required fields"
 msgstr "Vul aub de verplichte velden juist in."
 
@@ -75,11 +79,11 @@ msgstr "Voeg een nieuwe alias toe"
 msgid "Create"
 msgstr "Creeer"
 
-#: src/Views/CreateView.vala:34
+#: src/Views/CreateView.vala:35
 msgid "Alias with this name already exists"
 msgstr "Een alias met dezelfde naam bestaat al"
 
-#: src/Views/CreateView.vala:34
+#: src/Views/CreateView.vala:35
 msgid "Please choose a different name"
 msgstr "Kies aub een andere naam"
 

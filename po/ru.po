@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-24 01:57+0100\n"
+"POT-Creation-Date: 2019-05-02 00:07+0400\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Andrey Kultyapov <camellan@yandex.ru>\n"
 "Language-Team: \n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Poedit 2.0.4\n"
+"X-Generator: Poedit 2.0.6\n"
 
 #: src/ListBoxRow.vala:56
 msgid "Edit this alias"
@@ -24,11 +24,15 @@ msgstr "Удалить этот алиас"
 
 #: src/Dialogs/DeleteConfirm.vala:10
 msgid "Are you sure?"
-msgstr "Вы уверены?"
+msgstr "Удалить этот алиас?"
 
 #: src/Dialogs/DeleteConfirm.vala:11
 msgid "You are about to remove this alias. Are you sure?"
-msgstr "Вы собираетесь удалить этот алиас. Вы уверены?"
+msgstr "Действительно удалить этот алиас?"
+
+#: src/Dialogs/DeleteConfirm.vala:16
+msgid "Delete"
+msgstr "Удалить"
 
 #: src/Views/NotFoundView.vala:8
 msgid "Nothing was found"
@@ -40,14 +44,14 @@ msgstr "Попробуйте поискать что-то другое"
 
 #: src/Views/WelcomeView.vala:10
 msgid "You are new!"
-msgstr "Вы новичок!"
+msgstr "Похоже, что это первый запуск программы!"
 
 #: src/Views/WelcomeView.vala:11
 msgid ""
 "Few lines of code will be added to your .bashrc file, to use your aliases."
 msgstr ""
-"Несколько строк кода будут добавлены в файл .bashrc, чтобы использовать свои "
-"алиасы."
+"Несколько строк кода будут добавлены в файл .bashrc, для того, чтобы "
+"использовать свои алиасы."
 
 #: src/Views/WelcomeView.vala:13
 msgid "I'm OK with that."
@@ -61,11 +65,11 @@ msgstr "Редактировать алиас"
 msgid "Edit"
 msgstr "Правка"
 
-#: src/Views/EditView.vala:48 src/Views/CreateView.vala:29
+#: src/Views/EditView.vala:48 src/Views/CreateView.vala:30
 msgid "Fields are invalid"
-msgstr "Поля являются недействительными"
+msgstr "Необходимо заполнить все поля"
 
-#: src/Views/EditView.vala:48 src/Views/CreateView.vala:29
+#: src/Views/EditView.vala:48 src/Views/CreateView.vala:30
 msgid "Please correctly fill in all the required fields"
 msgstr "Пожалуйста правильно заполните все необходимые поля"
 
@@ -77,11 +81,11 @@ msgstr "Добавить новый алиас"
 msgid "Create"
 msgstr "Создать"
 
-#: src/Views/CreateView.vala:34
+#: src/Views/CreateView.vala:35
 msgid "Alias with this name already exists"
 msgstr "Алиас с таким именем уже существует"
 
-#: src/Views/CreateView.vala:34
+#: src/Views/CreateView.vala:35
 msgid "Please choose a different name"
 msgstr "Пожалуйста выберите другое имя"
 
@@ -123,8 +127,8 @@ msgstr "Назад"
 
 #: src/Components/HeaderBar.vala:136
 msgid "Light mode"
-msgstr ""
+msgstr "Светлая тема"
 
 #: src/Components/HeaderBar.vala:137
 msgid "Dark mode"
-msgstr ""
+msgstr "Тёмная тема"

@@ -104,10 +104,10 @@ public class ResponseTranslator : Object {
             }
 
             newFileString += "\n
-    #include_bash_aliases
-    if [ -f ~/.bash_aliases ]; then
-        source ~/.bash_aliases
-    fi;";
+#include_bash_aliases
+if [ -f ~/.bash_aliases ]; then
+    source ~/.bash_aliases
+fi;";
 
             file_manager.write_to_file (file, newFileString);
         } catch (Error e) {
@@ -128,13 +128,11 @@ public class ResponseTranslator : Object {
             string raw_alias = alias.get_command () + " " + alias.get_name () + "=" + alias.get_shortcut () + "\n";
             raw_string += raw_alias;
         }
-
         return raw_string;
     }
 
     public void write_to_file (Alias[] aliases) {
         string new_file_string = convert_to_string (aliases);
-
         var file = file_manager.get_file ("/.bash_aliases");
         file_manager.write_to_file (file, new_file_string);
     }

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: com.github.bartzaalberg.alias\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-24 01:57+0100\n"
+"POT-Creation-Date: 2019-05-02 00:07+0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -31,6 +31,10 @@ msgstr ""
 
 #: src/Dialogs/DeleteConfirm.vala:11
 msgid "You are about to remove this alias. Are you sure?"
+msgstr ""
+
+#: src/Dialogs/DeleteConfirm.vala:16
+msgid "Delete"
 msgstr ""
 
 #: src/Views/NotFoundView.vala:8
@@ -62,11 +66,11 @@ msgstr ""
 msgid "Edit"
 msgstr ""
 
-#: src/Views/EditView.vala:48 src/Views/CreateView.vala:29
+#: src/Views/EditView.vala:48 src/Views/CreateView.vala:30
 msgid "Fields are invalid"
 msgstr ""
 
-#: src/Views/EditView.vala:48 src/Views/CreateView.vala:29
+#: src/Views/EditView.vala:48 src/Views/CreateView.vala:30
 msgid "Please correctly fill in all the required fields"
 msgstr ""
 
@@ -78,11 +82,11 @@ msgstr ""
 msgid "Create"
 msgstr ""
 
-#: src/Views/CreateView.vala:34
+#: src/Views/CreateView.vala:35
 msgid "Alias with this name already exists"
 msgstr ""
 
-#: src/Views/CreateView.vala:34
+#: src/Views/CreateView.vala:35
 msgid "Please choose a different name"
 msgstr ""
 
